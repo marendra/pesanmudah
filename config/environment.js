@@ -4,6 +4,17 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'pesanmudah',
+    torii: {
+    sessionServiceName: 'session'
+  },
+  firebase: {
+    apiKey: "AIzaSyBvpXDr5JSIstpEdhdB4Rn2tBL5boSVaR4",
+    authDomain: "pesanmudah-26a55.firebaseapp.com",
+    databaseURL: "https://pesanmudah-26a55.firebaseio.com",
+    projectId: "pesanmudah-26a55",
+    storageBucket: "pesanmudah-26a55.appspot.com",
+    messagingSenderId: "169001667077"
+  },
     environment,
     rootURL: '/',
     locationType: 'auto',
